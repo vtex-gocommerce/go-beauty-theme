@@ -1,8 +1,9 @@
-.vtex-footer,
+.vtex-footer {
+  border-top: 1px solid #edeff2;
+}
+
 .vtex-footer__container {
-  border: none;
-  background-color: #000000;
-  color: #ffffff;
+  color: #a1a6ad;
 }
 
 .vtex-footer {
@@ -11,14 +12,14 @@
 }
 
 .vtex-footer__container a {
-  color: #ffffff;
-  font-size: 14px;
+  color: #a1a6ad;
+  font-size: 0.875rem;
 }
 
 .vtex-footer__accordion-title,
 .vtex-footer__list-title {
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 500;
   line-height: 19px;
   text-transform: uppercase;
 }
@@ -54,8 +55,7 @@
 .vtex-footer__text-information {
   width: 90%;
   color: #a1a6ad;
-  font-family: 'Zilla Slab';
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 14px;
 }
 

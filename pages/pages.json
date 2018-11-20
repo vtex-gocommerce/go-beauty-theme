@@ -1,7 +1,7 @@
 {
   "extensions": {
     "store/custom-theme": {
-      "component": "FashionTheme"
+      "component": "GoBeautyTheme"
     }
   }
 }

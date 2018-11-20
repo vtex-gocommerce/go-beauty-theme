@@ -10,19 +10,23 @@
 
 .vtex-product-details .vtex-product-name__brand {
   color: #142032;
-  font-size: 36px;
-  font-weight: 600;
+  font-size: 2.25rem;
+  font-weight: 500;
   line-height: 43px;
   margin-bottom: 20px;
   padding: 0;
   text-align: center;
 }
 
+.vtex-price-list__container {
+  margin-bottom: -6px;
+}
+
 .vtex-product-details .vtex-price-list__label,
 .vtex-product-details .vtex-price-list {
   color: #a1a6ad;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 500;
   line-height: 19px;
 }
 
@@ -32,15 +36,15 @@
 
 .vtex-product-details .vtex-price-selling__label {
   color: #142032;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 1.25rem;
+  font-weight: 500;
   line-height: 24px;
 }
 
 .vtex-product-details .vtex-price-selling {
   color: #142032;
-  font-size: 36px;
-  font-weight: 600;
+  font-size: 2.25rem;
+  font-weight: 500;
   line-height: 43px;
 }
 
@@ -48,8 +52,8 @@
 .vtex-product-details .vtex-price-installments__value,
 .vtex-product-details .vtex-price-installments {
   color: #a1a6ad;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 500;
   line-height: 19px;
 }
 
@@ -58,14 +62,14 @@
 }
 
 .vtex-sku-selector__variation {
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 0.875rem;
+  font-weight: 500;
   margin-bottom: 10px;
 }
 
 .vtex-sku-selector__variation .b {
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 0.875rem;
+  font-weight: 500;
 }
 
 .vtex-sku-selector__item {
@@ -73,12 +77,17 @@
   width: 50px;
   border: 1px solid #e3e4e6;
   border-radius: 4px;
+  overflow: hidden;
   background-color: #ffffff;
+}
+
+.vtex-sku-selector__item.b--blue {
+  border: 1px solid #d356c3;
 }
 
 .vtex-sku-selector__item:hover {
   border-radius: 4px;
-  background-color: #ededed;
+  border: 1px solid #000000;
 }
 
 .vtex-sku-selector {
@@ -89,16 +98,17 @@
 .vtex-product-details button {
   width: 100%;
   border-radius: 4px;
-  background-color: #000000;
+  background-color: #d356c3;
   color: #ffffff;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 500;
   height: 48px;
   text-align: center;
   border: none;
   text-transform: capitalize;
   margin-top: 8px;
   margin-bottom: 8px;
+  border-radius: 4px;
 }
 
 .vtex-product-details button:hover {
@@ -116,17 +126,22 @@
 
 .vtex-shipping-simulator .vtex-input input {
   height: 40px;
-  max-width: 165px;
+
   border: 1px solid #e3e4e6;
   border-radius: 4px;
   margin-left: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .vtex-shipping-simulator__zipcode-label {
   color: #a1a6ad;
-  font-family: 'Zilla Slab';
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 24px;
+}
+
+.vtex-shipping-simulator .vtex-input-prefix__group {
+  width: 100%;
 }
 
 .vtex-shipping-simulator .vtex-button {
@@ -136,22 +151,22 @@
   border-radius: 4px;
   background-color: #000000;
   color: #ffffff;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 500;
   line-height: 19px;
   text-transform: capitalize;
 }
 
 .vtex-shipping-table {
-  margin-top: 10px;
+  margin-top: 15px;
   width: 100%;
-  max-width: 375px;
+  max-width: 410px;
   border: 1px solid #d8d8d8;
 }
 
 .vtex-shipping-table__shipping-name-label,
 .vtex-shipping-table__cell {
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 24px;
   font-weight: normal;
 }
@@ -162,15 +177,15 @@
 
 .vtex-product-description .f4 {
   color: #142032;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 1.25rem;
+  font-weight: 500;
   line-height: 24px;
   margin-bottom: 35px;
 }
 
 .vtex-product-description .measure-wide {
   color: #142032;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 24px;
 }
 
@@ -188,14 +203,14 @@
 }
 
 .vtex-product-specifications__specification-name {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: normal;
   text-align: left;
   border: none;
 }
 
 .vtex-product-specifications__specification-values {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: normal;
 }
 

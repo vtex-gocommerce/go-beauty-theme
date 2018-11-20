@@ -1,5 +1,3 @@
-# Fashion Theme
+# Go Beauty Theme
 
-The customized template for PizzaHut's Vtex Delivery DreamStore
-
-`vtex install gocommerce.fashion-theme`
+`vtex install gocommerce.go-beauty-theme`
