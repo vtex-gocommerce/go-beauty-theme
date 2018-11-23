@@ -11,46 +11,27 @@
 .vtex-product-summary__image-container {
   max-height: 216px;
   max-width: 216px;
+  margin-bottom: 3px;
 }
 
 .vtex-discount-badge div.absolute {
   height: 24px;
   width: 60px;
   background-color: #d356c3;
-  right: -30px;
 }
 
 .vtex-product-summary__name-container {
   color: #142032;
   font-size: 0.875rem;
-  line-height: 24px;
+  line-height: 18px;
   text-align: center;
   height: auto;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
 }
 
 .vtex-product-summary__buy-button {
   width: 100%;
   margin-top: 4px;
-}
-
-.vtex-product-summary__buy-button button {
-  width: 100%;
-  border-radius: 4px;
-  background-color: #d356c3;
-  color: #ffffff;
-  font-size: 1rem;
-  font-weight: 500;
-  height: 48px;
-  text-align: center;
-  border: none;
-  text-transform: capitalize;
-  border-radius: 4px;
-}
-
-.vtex-product-summary__buy-button button:hover {
-  background-color: #000000;
-  color: #ffffff;
 }
 
 .vtex-product-name__brand {
@@ -75,6 +56,36 @@
 
 .vtex-price-installments {
   font-size: 0.875rem;
-  line-height: 24px;
   color: #142032;
+}
+
+.vtex-product-summary__buy-button button {
+  width: 100%;
+  border-radius: 4px;
+  background-color: #d356c3;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  height: 48px;
+  text-align: center;
+  border: none;
+  text-transform: capitalize;
+  border-radius: 4px;
+  margin-top: 4px;
+}
+
+.vtex-product-summary__buy-button button:hover {
+  background-color: #d356c3;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 40em) {
+  .vtex-product-summary__name-container {
+    line-height: 24px;
+    padding-bottom: 14px;
+  }
+
+  .vtex-discount-badge div.absolute {
+    right: -30px;
+  }
 }
