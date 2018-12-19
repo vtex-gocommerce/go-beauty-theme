@@ -2,13 +2,13 @@
   "vendor": "gocommerce",
   "name": "go-beauty-theme",
   "title": "Beauty Theme",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "builders": {
     "pages": "0.x",
     "react": "2.x"
   },
   "mustUpdateAt": "2018-09-05",
-  "categories": [],
+  "categories": ["theme"],
   "registries": ["smartcheckout"],
   "settingsSchema": {},
   "scripts": {
